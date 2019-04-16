@@ -5,9 +5,10 @@ Exercises related to Springboard Machine Learning Engineering Bootcamp
 
 The documents in this repository follow the same structure as shown below.
 
-### Code-Along
+### Code Practice
 
 - Data Pipelines with Luigi
+- Docker for Data Science
 
 ### Mini-Projects
 
