@@ -1,0 +1,9 @@
+[postgresTable]
+host: localhost
+password:
+database: luigi_exercise
+user: <enter a user>
+
+[s3Bucket]
+key: <add an aws s3 key>
+secret: <add an aws s3 secret>

@@ -5,35 +5,36 @@ Exercises related to Springboard Machine Learning Engineering Bootcamp
 
 The documents in this repository follow the same structure as shown below.
 
-### Engineering 
-
-1. Data Pipelines with Luigi
-2. Docker for Data Science
-3. Testing for Data Science
-4. Debugging
-
 ### Data Wrangling
 
-5. API 
-6. Data Wrangling with pandas
-7. JSON-Based Data Exercise
-8. SQL at Scale with Spark
-9. Data Wrangling at Scale with Spark
+1. API 
+2. Data Wrangling with pandas
+3. JSON-Based Data Exercise
+4. SQL at Scale with Spark
+5. Data Wrangling at Scale with Spark
 
 ### Machine Learning
 
-10. Linear Regression
-11. Logistic Regression
-12. Tree-Based Algorithms
-13. Clustering
-14. Spark ML
+Linear Regression
+Logistic Regression
+Tree-Based Algorithms
+Clustering
+Spark ML
 
 ### Deep Learning
 
-15. TensorFlow
-16. Keras
-17. Natural Language Processing
-18. Image Processing 
+TensorFlow
+Keras
+Natural Language Processing
+Image Processing 
+
+### Engineering 
+
+Data Pipelines with Luigi
+Docker for Data Science
+CI/CD Systems
+Logging and Testing
+Debugging
 
 ### Capstone Project 
 
