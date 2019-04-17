@@ -1,0 +1,932 @@
+2019-04-16 21:04:11,473 luigi-interface[11358] INFO: Loaded []
+2019-04-16 21:04:11,476 luigi.scheduler[11358] INFO: No prior state file exists at /var/lib/luigi-server/state.pickle. Starting with empty state
+2019-04-16 21:04:11,481 luigi.server[11358] INFO: Scheduler starting up
+2019-04-16 21:05:11,484 luigi.scheduler[11358] INFO: Starting pruning of task graph
+2019-04-16 21:05:11,486 luigi.scheduler[11358] INFO: Done pruning task graph
+2019-04-16 21:05:28,569 luigi-interface[11372] INFO: Loaded []
+2019-04-16 21:05:28,571 luigi.scheduler[11372] INFO: No prior state file exists at /var/lib/luigi-server/state.pickle. Starting with empty state
+2019-04-16 21:06:11,484 luigi.scheduler[11358] INFO: Starting pruning of task graph
+2019-04-16 21:06:11,485 luigi.scheduler[11358] INFO: Done pruning task graph
+2019-04-16 21:07:11,484 luigi.scheduler[11358] INFO: Starting pruning of task graph
+2019-04-16 21:07:11,486 luigi.scheduler[11358] INFO: Done pruning task graph
+2019-04-16 21:08:11,483 luigi.scheduler[11358] INFO: Starting pruning of task graph
+2019-04-16 21:08:11,484 luigi.scheduler[11358] INFO: Done pruning task graph
+2019-04-16 21:09:11,484 luigi.scheduler[11358] INFO: Starting pruning of task graph
+2019-04-16 21:09:11,487 luigi.scheduler[11358] INFO: Done pruning task graph
+2019-04-16 21:10:11,484 luigi.scheduler[11358] INFO: Starting pruning of task graph
+2019-04-16 21:10:11,486 luigi.scheduler[11358] INFO: Done pruning task graph
+2019-04-16 21:11:11,484 luigi.scheduler[11358] INFO: Starting pruning of task graph
+2019-04-16 21:11:11,486 luigi.scheduler[11358] INFO: Done pruning task graph
+2019-04-16 21:12:11,484 luigi.scheduler[11358] INFO: Starting pruning of task graph
+2019-04-16 21:12:11,486 luigi.scheduler[11358] INFO: Done pruning task graph
+2019-04-16 21:12:37,355 luigi-interface[11544] INFO: Loaded []
+2019-04-16 21:12:37,357 luigi.scheduler[11544] INFO: No prior state file exists at /var/lib/luigi-server/state.pickle. Starting with empty state
+2019-04-16 21:13:11,483 luigi.scheduler[11358] INFO: Starting pruning of task graph
+2019-04-16 21:13:11,484 luigi.scheduler[11358] INFO: Done pruning task graph
+2019-04-16 21:14:11,492 luigi.scheduler[11358] INFO: Starting pruning of task graph
+2019-04-16 21:14:11,495 luigi.scheduler[11358] INFO: Done pruning task graph
+2019-04-16 21:15:11,491 luigi.scheduler[11358] INFO: Starting pruning of task graph
+2019-04-16 21:15:11,491 luigi.scheduler[11358] INFO: Done pruning task graph
+2019-04-16 21:16:11,483 luigi.scheduler[11358] INFO: Starting pruning of task graph
+2019-04-16 21:16:11,485 luigi.scheduler[11358] INFO: Done pruning task graph
+2019-04-16 21:17:11,484 luigi.scheduler[11358] INFO: Starting pruning of task graph
+2019-04-16 21:17:11,485 luigi.scheduler[11358] INFO: Done pruning task graph
+2019-04-16 21:18:11,484 luigi.scheduler[11358] INFO: Starting pruning of task graph
+2019-04-16 21:18:11,485 luigi.scheduler[11358] INFO: Done pruning task graph
+2019-04-16 21:18:21,425 luigi-interface[11586] INFO: Loaded []
+2019-04-16 21:18:21,426 luigi.scheduler[11586] INFO: No prior state file exists at /var/lib/luigi-server/state.pickle. Starting with empty state
+2019-04-16 21:19:11,484 luigi.scheduler[11358] INFO: Starting pruning of task graph
+2019-04-16 21:19:11,486 luigi.scheduler[11358] INFO: Done pruning task graph
+2019-04-16 21:19:12,222 luigi.server[11358] INFO: Scheduler instance shutting down
+2019-04-16 21:19:12,223 luigi.scheduler[11358] WARNING: Failed saving scheduler state
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 445, in dump
+    with open(self._state_path, 'wb') as fobj:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/lib/luigi-server/state.pickle'
+2019-04-16 21:19:12,227 luigi.server[11358] INFO: Scheduler instance shutting down
+2019-04-16 21:19:12,227 luigi.scheduler[11358] WARNING: Failed saving scheduler state
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 445, in dump
+    with open(self._state_path, 'wb') as fobj:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/lib/luigi-server/state.pickle'
+2019-04-16 21:19:28,966 luigi-interface[11601] INFO: Loaded []
+2019-04-16 21:19:28,968 luigi.scheduler[11601] INFO: No prior state file exists at /var/lib/luigi-server/state.pickle. Starting with empty state
+2019-04-16 21:19:28,976 luigi.server[11601] INFO: Scheduler starting up
+2019-04-16 21:19:36,968 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 1.64ms
+2019-04-16 21:19:36,971 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.50ms
+2019-04-16 21:19:36,973 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.64ms
+2019-04-16 21:19:36,979 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.67ms
+2019-04-16 21:19:36,981 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.63ms
+2019-04-16 21:20:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:20:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:21:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:21:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:22:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:22:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:23:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:23:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:24:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:24:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:25:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:25:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:26:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:26:28,983 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:27:19,413 tornado.access[11601] INFO: 200 GET /api/announce_scheduling_failure (::1) 0.50ms
+2019-04-16 21:27:19,418 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.56ms
+2019-04-16 21:27:19,421 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.54ms
+2019-04-16 21:27:19,423 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.59ms
+2019-04-16 21:27:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:27:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:27:46,334 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.73ms
+2019-04-16 21:27:46,337 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.66ms
+2019-04-16 21:27:46,340 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.64ms
+2019-04-16 21:27:57,322 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.55ms
+2019-04-16 21:27:57,325 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.48ms
+2019-04-16 21:27:57,327 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.52ms
+2019-04-16 21:27:58,320 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:27:59,325 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:28:00,333 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.59ms
+2019-04-16 21:28:01,341 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.53ms
+2019-04-16 21:28:02,347 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.48ms
+2019-04-16 21:28:03,351 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.50ms
+2019-04-16 21:28:04,358 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.78ms
+2019-04-16 21:28:05,365 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.48ms
+2019-04-16 21:28:06,374 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.46ms
+2019-04-16 21:28:07,377 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.53ms
+2019-04-16 21:28:08,384 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.49ms
+2019-04-16 21:28:09,387 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.50ms
+2019-04-16 21:28:10,396 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.90ms
+2019-04-16 21:28:11,406 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.89ms
+2019-04-16 21:28:12,415 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.68ms
+2019-04-16 21:28:13,424 tornado.access[11601] INFO: 200 GET /api/ping (::1) 2.60ms
+2019-04-16 21:28:14,436 tornado.access[11601] INFO: 200 GET /api/ping (::1) 2.22ms
+2019-04-16 21:28:15,445 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.52ms
+2019-04-16 21:28:16,453 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.84ms
+2019-04-16 21:28:17,459 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:28:18,466 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.52ms
+2019-04-16 21:28:19,475 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.79ms
+2019-04-16 21:28:20,483 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.78ms
+2019-04-16 21:28:21,492 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:28:22,499 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:28:23,506 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:28:24,514 tornado.access[11601] INFO: 200 GET /api/ping (::1) 2.39ms
+2019-04-16 21:28:25,520 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:28:26,525 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.48ms
+2019-04-16 21:28:27,532 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.26ms
+2019-04-16 21:28:28,541 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.77ms
+2019-04-16 21:28:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:28:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:28:29,546 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:28:30,551 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.82ms
+2019-04-16 21:28:31,554 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.50ms
+2019-04-16 21:28:32,562 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.79ms
+2019-04-16 21:28:33,568 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:28:34,576 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.73ms
+2019-04-16 21:28:35,585 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:28:36,589 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.65ms
+2019-04-16 21:28:37,596 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.77ms
+2019-04-16 21:28:38,601 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.68ms
+2019-04-16 21:28:39,610 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:28:40,615 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.62ms
+2019-04-16 21:28:41,621 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.98ms
+2019-04-16 21:28:42,632 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.96ms
+2019-04-16 21:28:43,637 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.61ms
+2019-04-16 21:28:44,642 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:28:45,646 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:28:46,655 tornado.access[11601] INFO: 200 GET /api/ping (::1) 2.27ms
+2019-04-16 21:28:47,664 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:28:48,674 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.53ms
+2019-04-16 21:28:49,678 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:28:50,686 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.79ms
+2019-04-16 21:28:51,694 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.83ms
+2019-04-16 21:28:52,702 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.91ms
+2019-04-16 21:28:53,711 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.99ms
+2019-04-16 21:28:54,716 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.48ms
+2019-04-16 21:28:55,721 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.50ms
+2019-04-16 21:28:56,727 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.82ms
+2019-04-16 21:28:57,339 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.95ms
+2019-04-16 21:28:57,341 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.56ms
+2019-04-16 21:29:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:29:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:29:54,769 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.58ms
+2019-04-16 21:29:54,771 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.51ms
+2019-04-16 21:29:54,774 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.53ms
+2019-04-16 21:29:55,764 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:29:56,773 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.49ms
+2019-04-16 21:29:57,779 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.77ms
+2019-04-16 21:29:58,788 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.80ms
+2019-04-16 21:29:59,793 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.48ms
+2019-04-16 21:30:00,800 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.80ms
+2019-04-16 21:30:01,806 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.69ms
+2019-04-16 21:30:02,810 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.50ms
+2019-04-16 21:30:03,816 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.78ms
+2019-04-16 21:30:04,826 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.70ms
+2019-04-16 21:30:05,833 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.80ms
+2019-04-16 21:30:06,836 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.48ms
+2019-04-16 21:30:07,844 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.74ms
+2019-04-16 21:30:08,852 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.77ms
+2019-04-16 21:30:09,864 tornado.access[11601] INFO: 200 GET /api/ping (::1) 2.63ms
+2019-04-16 21:30:10,872 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.48ms
+2019-04-16 21:30:11,882 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.87ms
+2019-04-16 21:30:12,886 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.49ms
+2019-04-16 21:30:13,894 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.95ms
+2019-04-16 21:30:14,904 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.68ms
+2019-04-16 21:30:15,909 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.67ms
+2019-04-16 21:30:16,916 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.75ms
+2019-04-16 21:30:17,925 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.56ms
+2019-04-16 21:30:18,932 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.48ms
+2019-04-16 21:30:19,938 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.50ms
+2019-04-16 21:30:20,944 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.50ms
+2019-04-16 21:30:21,953 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.72ms
+2019-04-16 21:30:22,962 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.68ms
+2019-04-16 21:30:23,969 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.71ms
+2019-04-16 21:30:24,781 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.69ms
+2019-04-16 21:30:24,787 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 1.63ms
+2019-04-16 21:30:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:30:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:31:28,992 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:31:28,993 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:32:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:32:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:33:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:33:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:34:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:34:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:35:08,094 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.66ms
+2019-04-16 21:35:08,097 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.74ms
+2019-04-16 21:35:08,100 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.60ms
+2019-04-16 21:35:08,103 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.49ms
+2019-04-16 21:35:08,106 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.66ms
+2019-04-16 21:35:08,113 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 1.14ms
+2019-04-16 21:35:08,116 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.64ms
+2019-04-16 21:35:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:35:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:35:36,081 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.67ms
+2019-04-16 21:35:36,085 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.63ms
+2019-04-16 21:35:36,088 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.70ms
+2019-04-16 21:35:36,091 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.56ms
+2019-04-16 21:35:36,094 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.97ms
+2019-04-16 21:35:36,099 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.62ms
+2019-04-16 21:35:36,102 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.56ms
+2019-04-16 21:36:01,470 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.81ms
+2019-04-16 21:36:01,473 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.47ms
+2019-04-16 21:36:01,475 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.50ms
+2019-04-16 21:36:16,395 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.59ms
+2019-04-16 21:36:16,398 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.55ms
+2019-04-16 21:36:16,401 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.59ms
+2019-04-16 21:36:16,404 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.60ms
+2019-04-16 21:36:16,407 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.60ms
+2019-04-16 21:36:17,393 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-16 21:36:18,399 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.47ms
+2019-04-16 21:36:19,408 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.78ms
+2019-04-16 21:36:20,417 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.54ms
+2019-04-16 21:36:21,424 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.48ms
+2019-04-16 21:36:22,435 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.68ms
+2019-04-16 21:36:23,442 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.98ms
+2019-04-16 21:36:24,450 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.61ms
+2019-04-16 21:36:25,458 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.49ms
+2019-04-16 21:36:26,467 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.97ms
+2019-04-16 21:36:27,474 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.48ms
+2019-04-16 21:36:28,479 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.51ms
+2019-04-16 21:36:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:36:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:36:29,484 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.66ms
+2019-04-16 21:36:30,492 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.60ms
+2019-04-16 21:36:31,496 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.50ms
+2019-04-16 21:36:32,503 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.64ms
+2019-04-16 21:36:33,509 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.78ms
+2019-04-16 21:36:34,515 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.53ms
+2019-04-16 21:36:35,522 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.51ms
+2019-04-16 21:36:36,529 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.59ms
+2019-04-16 21:36:37,537 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.05ms
+2019-04-16 21:36:38,545 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.66ms
+2019-04-16 21:36:39,552 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.49ms
+2019-04-16 21:36:40,558 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.51ms
+2019-04-16 21:36:41,563 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.53ms
+2019-04-16 21:36:42,568 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.01ms
+2019-04-16 21:36:43,576 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.52ms
+2019-04-16 21:36:44,581 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.48ms
+2019-04-16 21:36:45,587 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.78ms
+2019-04-16 21:36:46,419 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.84ms
+2019-04-16 21:36:46,422 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.75ms
+2019-04-16 21:36:46,429 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 2.35ms
+2019-04-16 21:36:46,436 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.75ms
+2019-04-16 21:37:08,327 tornado.access[11601] INFO: 302 GET / (::1) 0.46ms
+2019-04-16 21:37:08,370 tornado.access[11601] INFO: 200 GET /static/visualiser/index.html (::1) 21.99ms
+2019-04-16 21:37:08,473 tornado.access[11601] INFO: 200 GET /static/visualiser/lib/jquery-1.10.0.min.js (::1) 10.68ms
+2019-04-16 21:37:08,478 tornado.access[11601] INFO: 200 GET /static/visualiser/lib/bootstrap3/css/bootstrap-theme.min.css (::1) 3.27ms
+2019-04-16 21:37:08,485 tornado.access[11601] INFO: 200 GET /static/visualiser/lib/bootstrap3/js/bootstrap.min.js (::1) 4.84ms
+2019-04-16 21:37:08,491 tornado.access[11601] INFO: 200 GET /static/visualiser/css/tipsy.css (::1) 4.29ms
+2019-04-16 21:37:08,499 tornado.access[11601] INFO: 200 GET /static/visualiser/lib/AdminLTE/css/AdminLTE.min.css (::1) 6.00ms
+2019-04-16 21:37:08,504 tornado.access[11601] INFO: 200 GET /static/visualiser/lib/AdminLTE/css/skin-green-light.min.css (::1) 1.45ms
+2019-04-16 21:37:08,508 tornado.access[11601] INFO: 200 GET /static/visualiser/lib/datatables/css/jquery.dataTables.min.css (::1) 3.28ms
+2019-04-16 21:37:08,522 tornado.access[11601] INFO: 200 GET /static/visualiser/lib/d3/d3.min.js (::1) 11.03ms
+2019-04-16 21:37:08,532 tornado.access[11601] INFO: 200 GET /static/visualiser/lib/d3/dagre-d3.min.js (::1) 8.30ms
+2019-04-16 21:37:08,538 tornado.access[11601] INFO: 200 GET /static/visualiser/lib/bootstrap3/css/bootstrap.min.css (::1) 4.90ms
+2019-04-16 21:37:08,541 tornado.access[11601] INFO: 200 GET /static/visualiser/css/font-awesome.min.css (::1) 2.31ms
+2019-04-16 21:37:08,546 tornado.access[11601] INFO: 200 GET /static/visualiser/lib/mustache.js (::1) 1.82ms
+2019-04-16 21:37:08,549 tornado.access[11601] INFO: 200 GET /static/visualiser/js/luigi.js (::1) 1.33ms
+2019-04-16 21:37:08,553 tornado.access[11601] INFO: 200 GET /static/visualiser/js/graph.js (::1) 2.99ms
+2019-04-16 21:37:08,559 tornado.access[11601] INFO: 200 GET /static/visualiser/js/visualiserApp.js (::1) 3.08ms
+2019-04-16 21:37:08,562 tornado.access[11601] INFO: 200 GET /static/visualiser/lib/jquery.slimscroll.min.js (::1) 1.37ms
+2019-04-16 21:37:08,565 tornado.access[11601] INFO: 200 GET /static/visualiser/lib/AdminLTE/js/app.min.js (::1) 1.62ms
+2019-04-16 21:37:08,572 tornado.access[11601] INFO: 200 GET /static/visualiser/lib/datatables/js/jquery.dataTables.min.js (::1) 5.18ms
+2019-04-16 21:37:08,578 tornado.access[11601] INFO: 200 GET /static/visualiser/lib/URI/1.18.2/URI.js (::1) 4.21ms
+2019-04-16 21:37:08,581 tornado.access[11601] INFO: 200 GET /static/visualiser/js/tipsy.js (::1) 1.52ms
+2019-04-16 21:37:08,941 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:37:08,944 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:37:08,945 tornado.access[11601] INFO: 200 GET /api/worker_list?data=%7B%7D (::1) 5.65ms
+2019-04-16 21:37:08,947 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:37:08,948 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:37:08,950 tornado.access[11601] INFO: 200 GET /api/resource_list?data=%7B%7D (::1) 2.70ms
+2019-04-16 21:37:08,971 tornado.access[11601] INFO: 200 GET /static/visualiser/lib/datatables/images/sort_both.png (::1) 1.57ms
+2019-04-16 21:37:08,989 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:37:08,991 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:37:08,992 tornado.access[11601] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22RUNNING%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 3.35ms
+2019-04-16 21:37:08,995 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:37:08,996 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:37:08,998 tornado.access[11601] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22FAILED%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 3.19ms
+2019-04-16 21:37:09,001 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:37:09,002 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:37:09,002 tornado.access[11601] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22BATCH_RUNNING%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 2.90ms
+2019-04-16 21:37:09,005 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:37:09,006 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:37:09,008 tornado.access[11601] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22PENDING%22%2C%22upstream_status%22%3A%22UPSTREAM_FAILED%22%2C%22search%22%3A%22%22%7D (::1) 2.59ms
+2019-04-16 21:37:09,013 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:37:09,014 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:37:09,016 tornado.access[11601] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22PENDING%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 3.38ms
+2019-04-16 21:37:09,017 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:37:09,018 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:37:09,020 tornado.access[11601] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22PENDING%22%2C%22upstream_status%22%3A%22UPSTREAM_DISABLED%22%2C%22search%22%3A%22%22%7D (::1) 2.68ms
+2019-04-16 21:37:09,023 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:37:09,024 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:37:09,025 tornado.access[11601] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22DISABLED%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 2.41ms
+2019-04-16 21:37:09,027 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:37:09,028 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:37:09,029 tornado.access[11601] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22DONE%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 1.83ms
+2019-04-16 21:37:09,036 tornado.access[11601] INFO: 200 GET /static/visualiser/fonts/fontawesome-webfont.woff2?v=4.3.0 (::1) 1.76ms
+2019-04-16 21:37:09,262 tornado.access[11601] WARNING: 404 GET /favicon.ico (::1) 1.18ms
+2019-04-16 21:37:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:37:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:38:04,905 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:38:04,907 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:38:04,908 tornado.access[11601] INFO: 200 GET /api/dep_graph?data=%7B%22task_id%22%3A%22HelloWorldTask%22%2C%22include_done%22%3Atrue%7D (::1) 4.22ms
+2019-04-16 21:38:07,640 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:38:07,642 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:38:07,644 tornado.access[11601] INFO: 200 GET /api/dep_graph?data=%7B%22task_id%22%3A%22HelloWorld%22%2C%22include_done%22%3Atrue%7D (::1) 4.07ms
+2019-04-16 21:38:17,607 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:38:17,608 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:38:17,610 tornado.access[11601] INFO: 200 GET /api/dep_graph?data=%7B%22task_id%22%3A%22HelloWorldTask__99914b932b%22%2C%22include_done%22%3Atrue%7D (::1) 3.10ms
+2019-04-16 21:38:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:38:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:38:34,308 tornado.access[11601] WARNING: 404 GET /static/visualiser/lib/bootstrap3/fonts/glyphicons-halflings-regular.woff2 (::1) 1.16ms
+2019-04-16 21:38:34,315 tornado.access[11601] WARNING: 404 GET /static/visualiser/lib/bootstrap3/fonts/glyphicons-halflings-regular.woff (::1) 0.49ms
+2019-04-16 21:38:34,328 tornado.access[11601] WARNING: 404 GET /static/visualiser/lib/bootstrap3/fonts/glyphicons-halflings-regular.ttf (::1) 0.96ms
+2019-04-16 21:38:35,966 tornado.access[11601] INFO: 200 GET /api/set_worker_processes?data=%7B%22worker%22%3A%22Worker(salt%3D492582582%2C+workers%3D1%2C+host%3Dafederat-mac%2C+username%3Dafederat%2C+pid%3D11845)%22%2C%22n%22%3A2%7D (::1) 0.57ms
+2019-04-16 21:39:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:39:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:40:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:40:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:41:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:41:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:42:26,339 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.64ms
+2019-04-16 21:42:26,342 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.57ms
+2019-04-16 21:42:26,345 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.55ms
+2019-04-16 21:42:26,348 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.55ms
+2019-04-16 21:42:26,351 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.70ms
+2019-04-16 21:42:26,355 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.64ms
+2019-04-16 21:42:26,358 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.54ms
+2019-04-16 21:42:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:42:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:43:26,720 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.81ms
+2019-04-16 21:43:26,724 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.67ms
+2019-04-16 21:43:26,727 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.93ms
+2019-04-16 21:43:26,731 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.72ms
+2019-04-16 21:43:26,734 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.60ms
+2019-04-16 21:43:26,739 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.64ms
+2019-04-16 21:43:26,742 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.57ms
+2019-04-16 21:43:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:43:28,976 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:44:13,445 tornado.access[11601] INFO: 200 GET /api/announce_scheduling_failure (::1) 0.58ms
+2019-04-16 21:44:13,450 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.63ms
+2019-04-16 21:44:13,453 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.63ms
+2019-04-16 21:44:13,455 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.56ms
+2019-04-16 21:44:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:44:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:45:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:45:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:46:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:46:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:47:28,992 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:47:28,993 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:48:28,981 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:48:28,982 luigi.scheduler[11601] INFO: Removing task 'HelloWorldTask__99914b932b'
+2019-04-16 21:48:28,983 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:49:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:49:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:50:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:50:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:51:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:51:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:52:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:52:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:53:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:53:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:54:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:54:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:55:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:55:28,980 luigi.scheduler[11601] INFO: Removing task 'HelloTask__99914b932b'
+2019-04-16 21:55:28,981 luigi.scheduler[11601] INFO: Removing task 'WorldTask__99914b932b'
+2019-04-16 21:55:28,982 luigi.scheduler[11601] INFO: Removing task 'HelloWorldTask_test_38c5a156b6'
+2019-04-16 21:55:28,982 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:56:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:56:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:57:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:57:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:58:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:58:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 21:59:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 21:59:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:00:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:00:28,981 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:01:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:01:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:02:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:02:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:03:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:03:28,981 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:04:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:04:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:05:28,996 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:05:28,997 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:32:12,805 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:32:12,806 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:32:28,981 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:32:28,982 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:33:28,980 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:33:28,982 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:34:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:34:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:35:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:35:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:36:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:36:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:37:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:37:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:38:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:38:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:39:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:39:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:40:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:40:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-16 22:41:29,000 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-16 22:41:29,001 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:31:20,752 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:31:20,753 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:31:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:31:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:32:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:32:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:33:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:33:28,976 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:34:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:34:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:35:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:35:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:36:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:36:28,976 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:37:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:37:28,976 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:38:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:38:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:39:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:39:28,976 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:40:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:40:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:41:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:41:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:42:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:42:28,976 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:43:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:43:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:44:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:44:28,976 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:45:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:45:28,976 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:46:28,997 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:46:28,998 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:47:28,988 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:47:28,991 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:48:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:48:28,976 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:49:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:49:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:50:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:50:28,976 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:51:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:51:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:52:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:52:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:53:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:53:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:54:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:54:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:55:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:55:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:56:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:56:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:57:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:57:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:58:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:58:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 07:59:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 07:59:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 08:00:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 08:00:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 08:01:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 08:01:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 08:02:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 08:02:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 08:03:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 08:03:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 08:04:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 08:04:28,976 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 08:05:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 08:05:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 08:06:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 08:06:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 08:11:08,876 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 08:11:08,880 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 08:11:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 08:11:28,976 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 08:18:16,264 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 08:18:16,265 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 08:18:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 08:18:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 08:19:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 08:19:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 08:32:17,953 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 08:32:17,955 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 08:47:24,958 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 08:47:24,960 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 08:47:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 08:47:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:13:16,310 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:13:16,311 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:13:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:13:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:14:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:14:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:15:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:15:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:16:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:16:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:17:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:17:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:18:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:18:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:19:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:19:28,976 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:20:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:20:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:21:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:21:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:22:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:22:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:23:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:23:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:24:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:24:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:25:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:25:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:26:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:26:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:27:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:27:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:28:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:28:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:29:11,739 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 1.09ms
+2019-04-17 09:29:11,745 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 1.49ms
+2019-04-17 09:29:11,753 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 1.64ms
+2019-04-17 09:29:11,756 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.56ms
+2019-04-17 09:29:11,761 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.88ms
+2019-04-17 09:29:12,730 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.78ms
+2019-04-17 09:29:13,737 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.78ms
+2019-04-17 09:29:14,743 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.80ms
+2019-04-17 09:29:15,753 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.77ms
+2019-04-17 09:29:16,761 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.86ms
+2019-04-17 09:29:17,768 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-17 09:29:18,773 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.78ms
+2019-04-17 09:29:19,779 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.80ms
+2019-04-17 09:29:20,787 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.77ms
+2019-04-17 09:29:21,797 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.80ms
+2019-04-17 09:29:22,806 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.79ms
+2019-04-17 09:29:23,811 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.81ms
+2019-04-17 09:29:24,819 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-17 09:29:25,825 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.80ms
+2019-04-17 09:29:26,830 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.69ms
+2019-04-17 09:29:27,836 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.99ms
+2019-04-17 09:29:28,841 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.54ms
+2019-04-17 09:29:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:29:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:29:29,850 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.42ms
+2019-04-17 09:29:30,854 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-17 09:29:31,861 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.51ms
+2019-04-17 09:29:32,869 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.92ms
+2019-04-17 09:29:33,878 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.54ms
+2019-04-17 09:29:34,889 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.92ms
+2019-04-17 09:29:35,898 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.61ms
+2019-04-17 09:29:36,906 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.64ms
+2019-04-17 09:29:37,914 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.81ms
+2019-04-17 09:29:38,921 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.50ms
+2019-04-17 09:29:39,929 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.31ms
+2019-04-17 09:29:40,938 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.69ms
+2019-04-17 09:29:41,944 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.77ms
+2019-04-17 09:29:42,949 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.83ms
+2019-04-17 09:29:43,957 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.48ms
+2019-04-17 09:29:44,966 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.76ms
+2019-04-17 09:29:45,975 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.96ms
+2019-04-17 09:29:46,983 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.77ms
+2019-04-17 09:29:47,990 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.09ms
+2019-04-17 09:29:48,995 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.74ms
+2019-04-17 09:29:50,003 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.97ms
+2019-04-17 09:29:51,010 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.80ms
+2019-04-17 09:29:52,016 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.79ms
+2019-04-17 09:29:53,022 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.78ms
+2019-04-17 09:29:54,028 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.56ms
+2019-04-17 09:29:55,033 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.50ms
+2019-04-17 09:29:56,039 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.77ms
+2019-04-17 09:29:57,044 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.80ms
+2019-04-17 09:29:58,053 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.65ms
+2019-04-17 09:29:59,059 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.67ms
+2019-04-17 09:30:00,064 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.80ms
+2019-04-17 09:30:01,071 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.78ms
+2019-04-17 09:30:02,076 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.80ms
+2019-04-17 09:30:03,083 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.78ms
+2019-04-17 09:30:04,087 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.77ms
+2019-04-17 09:30:05,091 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.70ms
+2019-04-17 09:30:06,096 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.77ms
+2019-04-17 09:30:07,102 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.79ms
+2019-04-17 09:30:08,107 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.55ms
+2019-04-17 09:30:09,114 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.48ms
+2019-04-17 09:30:10,127 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.18ms
+2019-04-17 09:30:11,135 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.81ms
+2019-04-17 09:30:11,776 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.72ms
+2019-04-17 09:30:11,779 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.57ms
+2019-04-17 09:30:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:30:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:31:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:31:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:32:29,034 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:32:29,035 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:33:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:33:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:34:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:34:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:34:46,284 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 1.53ms
+2019-04-17 09:34:46,487 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 1.65ms
+2019-04-17 09:34:46,494 tornado.access[11601] INFO: 200 GET /api/announce_scheduling_failure (::1) 0.58ms
+2019-04-17 09:34:46,499 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.63ms
+2019-04-17 09:34:46,502 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.50ms
+2019-04-17 09:34:46,505 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.56ms
+2019-04-17 09:35:03,902 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.72ms
+2019-04-17 09:35:03,905 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.96ms
+2019-04-17 09:35:03,910 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.84ms
+2019-04-17 09:35:03,915 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 1.06ms
+2019-04-17 09:35:03,920 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 1.00ms
+2019-04-17 09:35:03,924 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.98ms
+2019-04-17 09:35:03,929 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.76ms
+2019-04-17 09:35:03,937 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 2.21ms
+2019-04-17 09:35:04,892 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.52ms
+2019-04-17 09:35:05,899 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.57ms
+2019-04-17 09:35:06,903 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.55ms
+2019-04-17 09:35:07,907 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.50ms
+2019-04-17 09:35:08,911 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.64ms
+2019-04-17 09:35:09,914 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.88ms
+2019-04-17 09:35:10,925 tornado.access[11601] INFO: 200 GET /api/ping (::1) 2.50ms
+2019-04-17 09:35:11,929 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.86ms
+2019-04-17 09:35:12,935 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.56ms
+2019-04-17 09:35:13,943 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.86ms
+2019-04-17 09:35:13,948 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.70ms
+2019-04-17 09:35:13,952 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.66ms
+2019-04-17 09:35:13,957 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.60ms
+2019-04-17 09:35:13,960 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.53ms
+2019-04-17 09:35:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:35:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:36:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:36:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:37:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:37:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:38:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:38:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:39:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:39:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:39:48,351 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.76ms
+2019-04-17 09:39:48,355 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.80ms
+2019-04-17 09:39:48,359 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.86ms
+2019-04-17 09:40:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:40:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:41:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:41:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:42:08,279 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.59ms
+2019-04-17 09:42:08,282 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.52ms
+2019-04-17 09:42:08,284 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.51ms
+2019-04-17 09:42:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:42:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:42:53,210 tornado.access[11601] INFO: 200 GET /api/announce_scheduling_failure (::1) 0.59ms
+2019-04-17 09:42:53,214 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.57ms
+2019-04-17 09:42:53,218 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.78ms
+2019-04-17 09:42:53,222 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.74ms
+2019-04-17 09:43:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:43:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:44:21,414 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.61ms
+2019-04-17 09:44:21,417 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.58ms
+2019-04-17 09:44:21,421 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.58ms
+2019-04-17 09:44:21,424 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.61ms
+2019-04-17 09:44:21,427 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.62ms
+2019-04-17 09:44:21,430 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.63ms
+2019-04-17 09:44:21,434 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.63ms
+2019-04-17 09:44:21,437 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.59ms
+2019-04-17 09:44:22,411 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.80ms
+2019-04-17 09:44:23,416 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.55ms
+2019-04-17 09:44:24,425 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.79ms
+2019-04-17 09:44:25,432 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.95ms
+2019-04-17 09:44:26,437 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.51ms
+2019-04-17 09:44:27,444 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.98ms
+2019-04-17 09:44:28,451 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.75ms
+2019-04-17 09:44:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:44:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:44:29,456 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.51ms
+2019-04-17 09:44:30,463 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.14ms
+2019-04-17 09:44:31,449 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 1.50ms
+2019-04-17 09:44:31,457 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.62ms
+2019-04-17 09:44:31,462 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.60ms
+2019-04-17 09:44:31,464 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.62ms
+2019-04-17 09:45:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:45:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:46:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:46:28,980 luigi.scheduler[11601] INFO: Removing task 'HelloWorldTask_test_38c5a156b6'
+2019-04-17 09:46:28,981 luigi.scheduler[11601] INFO: Removing task 'HelloTask___results__built_28c67c30cc'
+2019-04-17 09:46:28,982 luigi.scheduler[11601] INFO: Removing task 'WorldTask___results__built_39adbeac5e'
+2019-04-17 09:46:28,982 luigi.scheduler[11601] INFO: Removing task 'MakeDirectory___results__built_f05407c1fb'
+2019-04-17 09:46:28,983 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:46:39,084 tornado.access[11601] INFO: 304 GET /static/visualiser/index.html (::1) 3.18ms
+2019-04-17 09:46:39,108 tornado.access[11601] INFO: 304 GET /static/visualiser/lib/bootstrap3/css/bootstrap-theme.min.css (::1) 2.47ms
+2019-04-17 09:46:39,112 tornado.access[11601] INFO: 304 GET /static/visualiser/lib/jquery-1.10.0.min.js (::1) 2.20ms
+2019-04-17 09:46:39,117 tornado.access[11601] INFO: 304 GET /static/visualiser/lib/bootstrap3/css/bootstrap.min.css (::1) 1.37ms
+2019-04-17 09:46:39,150 tornado.access[11601] INFO: 304 GET /static/visualiser/lib/AdminLTE/css/AdminLTE.min.css (::1) 30.43ms
+2019-04-17 09:46:39,153 tornado.access[11601] INFO: 304 GET /static/visualiser/css/font-awesome.min.css (::1) 0.77ms
+2019-04-17 09:46:39,156 tornado.access[11601] INFO: 304 GET /static/visualiser/lib/bootstrap3/js/bootstrap.min.js (::1) 0.59ms
+2019-04-17 09:46:39,159 tornado.access[11601] INFO: 304 GET /static/visualiser/lib/datatables/css/jquery.dataTables.min.css (::1) 0.91ms
+2019-04-17 09:46:39,161 tornado.access[11601] INFO: 304 GET /static/visualiser/lib/d3/d3.min.js (::1) 0.94ms
+2019-04-17 09:46:39,174 tornado.access[11601] INFO: 304 GET /static/visualiser/lib/d3/dagre-d3.min.js (::1) 4.21ms
+2019-04-17 09:46:39,177 tornado.access[11601] INFO: 304 GET /static/visualiser/css/tipsy.css (::1) 0.52ms
+2019-04-17 09:46:39,180 tornado.access[11601] INFO: 304 GET /static/visualiser/lib/AdminLTE/css/skin-green-light.min.css (::1) 1.09ms
+2019-04-17 09:46:39,184 tornado.access[11601] INFO: 304 GET /static/visualiser/lib/mustache.js (::1) 1.54ms
+2019-04-17 09:46:39,187 tornado.access[11601] INFO: 304 GET /static/visualiser/js/graph.js (::1) 0.69ms
+2019-04-17 09:46:39,190 tornado.access[11601] INFO: 304 GET /static/visualiser/js/visualiserApp.js (::1) 0.57ms
+2019-04-17 09:46:39,193 tornado.access[11601] INFO: 304 GET /static/visualiser/js/tipsy.js (::1) 1.31ms
+2019-04-17 09:46:39,197 tornado.access[11601] INFO: 304 GET /static/visualiser/lib/AdminLTE/js/app.min.js (::1) 1.06ms
+2019-04-17 09:46:39,200 tornado.access[11601] INFO: 304 GET /static/visualiser/js/luigi.js (::1) 0.65ms
+2019-04-17 09:46:39,202 tornado.access[11601] INFO: 304 GET /static/visualiser/lib/jquery.slimscroll.min.js (::1) 0.50ms
+2019-04-17 09:46:39,205 tornado.access[11601] INFO: 304 GET /static/visualiser/lib/datatables/js/jquery.dataTables.min.js (::1) 0.89ms
+2019-04-17 09:46:39,208 tornado.access[11601] INFO: 304 GET /static/visualiser/lib/URI/1.18.2/URI.js (::1) 0.68ms
+2019-04-17 09:46:39,286 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:46:39,287 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:46:39,289 tornado.access[11601] INFO: 304 GET /api/resource_list?data=%7B%7D (::1) 3.56ms
+2019-04-17 09:46:39,291 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:46:39,292 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:46:39,293 tornado.access[11601] INFO: 200 GET /api/worker_list?data=%7B%7D (::1) 3.11ms
+2019-04-17 09:46:39,306 tornado.access[11601] INFO: 304 GET /static/visualiser/lib/datatables/images/sort_both.png (::1) 1.16ms
+2019-04-17 09:46:39,319 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:46:39,320 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:46:39,321 tornado.access[11601] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22RUNNING%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 3.41ms
+2019-04-17 09:46:39,323 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:46:39,324 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:46:39,326 tornado.access[11601] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22BATCH_RUNNING%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 3.46ms
+2019-04-17 09:46:39,329 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:46:39,331 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:46:39,332 tornado.access[11601] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22FAILED%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 3.02ms
+2019-04-17 09:46:39,334 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:46:39,335 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:46:39,336 tornado.access[11601] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22DISABLED%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 1.86ms
+2019-04-17 09:46:39,337 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:46:39,338 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:46:39,340 tornado.access[11601] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22PENDING%22%2C%22upstream_status%22%3A%22UPSTREAM_FAILED%22%2C%22search%22%3A%22%22%7D (::1) 2.89ms
+2019-04-17 09:46:39,343 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:46:39,344 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:46:39,345 tornado.access[11601] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22PENDING%22%2C%22upstream_status%22%3A%22UPSTREAM_DISABLED%22%2C%22search%22%3A%22%22%7D (::1) 2.58ms
+2019-04-17 09:46:39,350 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:46:39,351 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:46:39,353 tornado.access[11601] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22DONE%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 4.32ms
+2019-04-17 09:46:39,356 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:46:39,356 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:46:39,359 tornado.access[11601] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22PENDING%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 3.35ms
+2019-04-17 09:46:43,588 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:46:43,590 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:46:43,592 tornado.access[11601] INFO: 200 GET /api/dep_graph?data=%7B%22task_id%22%3A%22HelloWorldTask_test2_065205024b%22%2C%22include_done%22%3Atrue%7D (::1) 3.79ms
+2019-04-17 09:46:52,584 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:46:52,586 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:46:52,590 tornado.access[11601] INFO: 200 GET /api/dep_graph?data=%7B%22task_id%22%3A%22HelloWorldTask_test_b4b7547733%22%2C%22include_done%22%3Atrue%7D (::1) 6.61ms
+2019-04-17 09:47:04,176 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.61ms
+2019-04-17 09:47:04,179 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.52ms
+2019-04-17 09:47:04,182 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.51ms
+2019-04-17 09:47:11,054 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.58ms
+2019-04-17 09:47:11,058 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.60ms
+2019-04-17 09:47:11,061 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.61ms
+2019-04-17 09:47:11,064 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.70ms
+2019-04-17 09:47:11,067 tornado.access[11601] INFO: 200 GET /api/add_worker (::1) 0.50ms
+2019-04-17 09:47:11,070 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.62ms
+2019-04-17 09:47:11,074 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.91ms
+2019-04-17 09:47:11,077 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.72ms
+2019-04-17 09:47:12,052 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.78ms
+2019-04-17 09:47:13,060 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.55ms
+2019-04-17 09:47:14,066 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.88ms
+2019-04-17 09:47:15,072 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.06ms
+2019-04-17 09:47:16,079 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.59ms
+2019-04-17 09:47:16,087 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.69ms
+2019-04-17 09:47:16,090 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.58ms
+2019-04-17 09:47:17,085 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.49ms
+2019-04-17 09:47:18,090 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.80ms
+2019-04-17 09:47:19,093 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.50ms
+2019-04-17 09:47:20,098 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.51ms
+2019-04-17 09:47:21,104 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.48ms
+2019-04-17 09:47:22,111 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.50ms
+2019-04-17 09:47:23,116 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.55ms
+2019-04-17 09:47:24,123 tornado.access[11601] INFO: 200 GET /api/ping (::1) 0.49ms
+2019-04-17 09:47:25,131 tornado.access[11601] INFO: 200 GET /api/ping (::1) 1.14ms
+2019-04-17 09:47:26,096 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.72ms
+2019-04-17 09:47:26,103 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 2.84ms
+2019-04-17 09:47:26,111 tornado.access[11601] INFO: 200 GET /api/add_task (::1) 0.60ms
+2019-04-17 09:47:26,114 tornado.access[11601] INFO: 200 GET /api/get_work (::1) 0.96ms
+2019-04-17 09:47:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:47:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:48:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:48:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:49:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:49:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:50:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:50:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:51:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:51:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:52:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:52:28,977 luigi.scheduler[11601] INFO: Removing task 'HelloWorldTask_test2_065205024b'
+2019-04-17 09:52:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:53:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:53:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:54:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:54:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:55:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:55:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:56:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:56:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:57:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:57:28,979 luigi.scheduler[11601] INFO: Removing task 'HelloTask___results_test_h_94aa3324e7'
+2019-04-17 09:57:28,980 luigi.scheduler[11601] INFO: Removing task 'WorldTask___results_test_w_26f2025cb7'
+2019-04-17 09:57:28,981 luigi.scheduler[11601] INFO: Removing task 'MakeDirectory___results_test_e3373eb2c5'
+2019-04-17 09:57:28,982 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:58:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:58:28,978 luigi.scheduler[11601] INFO: Removing task 'HelloWorldTask_test_b4b7547733'
+2019-04-17 09:58:28,979 luigi.scheduler[11601] INFO: Removing task 'HelloWorldTask_test2_92a43b56c5'
+2019-04-17 09:58:28,980 luigi.scheduler[11601] INFO: Removing task 'WorldTask___results_test2__b060afb78c'
+2019-04-17 09:58:28,982 luigi.scheduler[11601] INFO: Removing task 'HelloTask___results_test2__2c8dc90519'
+2019-04-17 09:58:28,983 luigi.scheduler[11601] INFO: Removing task 'MakeDirectory___results_test2_2c662ae311'
+2019-04-17 09:58:28,984 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 09:59:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 09:59:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:00:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:00:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:01:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:01:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:02:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:02:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:03:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:03:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:04:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:04:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:05:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:05:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:06:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:06:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:07:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:07:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:08:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:08:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:09:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:09:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:10:29,030 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:10:29,031 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:11:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:11:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:12:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:12:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:13:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:13:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:14:28,997 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:14:29,013 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:15:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:15:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:16:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:16:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:17:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:17:28,981 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:18:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:18:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:19:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:19:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:20:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:20:28,981 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:21:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:21:28,981 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:22:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:22:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:23:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:23:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:24:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:24:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:25:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:25:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:26:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:26:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:27:28,990 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:27:28,991 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:28:28,985 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:28:28,986 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:29:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:29:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:30:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:30:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:31:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:31:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:32:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:32:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:33:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:33:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:34:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:34:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:35:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:35:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:36:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:36:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:37:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:37:28,981 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:38:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:38:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:39:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:39:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:40:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:40:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:41:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:41:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:42:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:42:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:43:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:43:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:44:28,995 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:44:28,996 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:45:28,979 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:45:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:46:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:46:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 10:47:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 10:47:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
