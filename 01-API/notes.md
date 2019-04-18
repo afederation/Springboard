@@ -74,5 +74,53 @@ The get() method returns the value for the specified key if key is in dictionary
 
 When looping through an RSS feed, this is a way to handle errors if the feed is imcomplete / lacking some information.
 
-
 ### API
+
+Using json and urllib. Requests library is also an option to replace urllib, may be more robust? 
+
+```python
+import json
+import urllib.request
+
+
+data = json.loads(urllib.request.urlopen('http://www.omdbapi.com/?t=Game%20of%20Thrones&Season=1').read().\
+                  decode('utf8'))
+        # UTF-8 helps deail with any coding issues on import
+```
+
+Like before, also returns a dictionary. Easy to deal with.
+
+What if we need an API key!? Depends on the site, for this exmaple, you can use a command-line request to get a key.
+
+It's good practice not to put your keys in your code. Store your API key as a JSON file in the repo, then .gitignore it. Here's an example:
+
+```python
+with open("./dpla_config_secret.json") as key_file:
+    key = json.load(key_file)
+
+import requests
+
+# we are specifying our url and parameters here as variables
+url = 'http://api.dp.la/v2/items/'
+params = {'api_key' : key['api_key'], 'q' : 'goats+AND+cats'} # q is the query
+r = requests.get(url, params=params)
+```
+
+Good for troubleshooting, you can edconstruct your call
+
+```python
+# we can look at the url that was created by requests with our specified variables
+r.url
+
+# we can check the status code of our request
+r.status_code
+
+# we can look at the content of our request
+print(r.content)
+```
+
+Returns a dictionary again.
+
+
+
+
