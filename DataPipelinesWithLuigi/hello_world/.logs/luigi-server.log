@@ -1738,3 +1738,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/var/lib/luigi-server/s
 2019-04-17 17:55:28,982 luigi.scheduler[11601] INFO: Done pruning task graph
 2019-04-17 17:56:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
 2019-04-17 17:56:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 17:57:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 17:57:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 17:58:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 17:58:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
