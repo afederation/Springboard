@@ -93,6 +93,9 @@ google.shape
 google.info() #gives you column name, datatype, #values
 google.describe() #summary statistics
 ```
+Check what types the data are in
+
+`df.dtypes()`
 
 To get a column by index, you can use dict notation or dot notation
 
@@ -220,6 +223,8 @@ To check your cleaning, you can use Assert statements.
 You can check the make sure you don't have any null values.
 `assert google.Close.notnull().all()`
 Note: the .all() returns True if all elements are True.
+
+To check for the entire table, you need two .all() statements - the first one for the columns, the second for the rows.
 
 
 
