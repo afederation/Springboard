@@ -1,6 +1,7 @@
 # Data Wrangling with Pandas
 
 ## Introduction
+[Source](https://github.com/talumbau/strata_data/blob/master/strata_pandas.ipynb)
 
 Pandas is built for doing practical data analysis using Python
 - Used extensively in production in financial applications.
@@ -40,7 +41,7 @@ Import is pretty simple:
 
 `google = pd.read_csv('data/goog.csv', index_col='Date', parse_dates=True)`
 
-This uses the 'Date' column as the indexes for the rows.
+This uses the 'Date' column as the indexes for the rows. Default parse_dates is False, so be aware.
 
 Pandas DataReader is a nifty extension that is already hooked up to some common data sources, mostly financial data.
 
@@ -53,6 +54,31 @@ google = pd_data.DataReader("GOOG", 'google', start, end)
 
 ##Then you can convert to a csv, which is the file that was imported above
 google.to_csv('data/goog.csv', index=True, encoding='utf-8')
+```
+
+Glob is a nice tool to do unix-style regular expressions to grab lists of files
+```Python
+# Write the pattern: pattern
+pattern = '*.csv'
+
+# Save all file matches: csv_files
+csv_files = glob.glob(pattern) # Gives a list of all CSV files in the directory
+
+# Then you can iterate through the files and cat them
+# Create an empty list: frames
+frames = []
+
+#  Iterate over csv_files
+for csv in csv_files:
+
+    #  Read csv into a DataFrame: df
+    df = pd.read_csv(csv)
+
+    # Append df to frames
+    frames.append(df)
+
+# Concatenate frames into a single DataFrame: uber
+uber = pd.concat(frames)
 ```
 
 ## Data Access and Inspection
@@ -83,6 +109,19 @@ To index by the strings, use .loc. Can also index by dates, which is pretty awes
 Iteration
 `for key, value in series2.iteritems():
     print(key, value)`
+
+You can sort by the indexes
+`data = data.set_index(data.index.sort_values(ascending=False))`
+
+Categorial data
+
+`df['sex'] = df['sex'].astype('category')`
+
+The categorical data type is useful in the following cases:
+- A string variable consisting of only a few different values. Converting such a string variable to a categorical variable will save some memory.
+- The lexical order of a variable is not the same as the logical order (“one”, “two”, “three”). By converting to a categorical and specifying an order on the categories, sorting and min/max will use the logical order instead of the lexical order.
+- As a signal to other python libraries that this column should be treated as a categorical variable
+e.g. to use suitable statistical methods or plot types.
 
 ## Data Filtering
 
@@ -119,3 +158,73 @@ f     NaN
 g     NaN
 dtype: float64
 ```
+
+To get a DataFrame from a DataFrame, index by a list of columns
+`df_col = df_grades[['Alice']]`
+Or for a row:
+`df_row = df_grades.loc['Jan':'Jan']`
+
+Adding columns
+- zero fill:  `df['var'] = 0`
+- values from NumPy array: df['my_data'] = data
+- note: df.var construct can not create a column by that name; only used to access existing columns by name
+
+Deleting columns
+`del data['FIRSTURL']`
+
+Renaming columns
+`data = data.rename(columns={'NAME':'PLANET'})`
+
+## Data Cleaning
+
+You can cooerce a data transformation, like for example numbers that were loaded as strings.
+
+`tips['total_bill'] = pd.to_numeric(tips['total_bill'], errors='coerce')`
+
+You can write custom functions and apply them across columns (axis=0) or rows(axix=1). Example:
+
+```Python
+def diff_money(row, pattern):
+ icost = row['Initial Cost']
+ tef = row['Total Est. Fee']
+
+ if bool(pattern.match(icost)) and bool(pattern.match(tef)):
+   icost = icost.replace("$","")
+   tef = tef.replace("$","")
+
+   icost = float(icost)
+   tef = float(tef)
+
+   return icost - tef
+else:
+   return(NaN)
+
+pattern = re.compile('^\$\d*\.\d{2}$')
+df_subset['diff'] = df_subset.apply(diff_money,
+                                    axis=1,
+                                    pattern=pattern) #explicitly define the parameters of the function
+ ```
+
+Lambda functions make this more efficient.
+
+`tips['total_dollar_replace'] = tips.total_dollar.apply(lambda x: x.replace('$', ''))`
+
+You can remove duplicates with `df.drop_duplicates()`
+
+Drop NA values with `df.dropna()`
+Replace NA values with `tips_nan.fillna(<value to replace with>)`
+
+To check your cleaning, you can use Assert statements.
+- assert 1 == 1; returns nothing
+- assert 1 == 2; returns as AssertionError
+You can check the make sure you don't have any null values.
+`assert google.Close.notnull().all()`
+Note: the .all() returns True if all elements are True.
+
+
+
+## Turning Tuesday
+
+Cool example. Found [here](https://github.com/talumbau/strata_data/blob/master/Turning_Tuesday_PyData.ipynb)
+
+Nothing new on the code, really.
