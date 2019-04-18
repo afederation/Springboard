@@ -41186,3 +41186,2163 @@ Call stack:
     logger.info("Done pruning task graph")
 Message: 'Done pruning task graph'
 Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 689, in prune
+    logger.info("Starting pruning of task graph")
+Message: 'Starting pruning of task graph'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 69, in emit
+    self.doRollover()
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 395, in doRollover
+    for s in self.getFilesToDelete():
+  File "/anaconda3/lib/python3.7/logging/handlers.py", line 347, in getFilesToDelete
+    fileNames = os.listdir(dirName)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/afederat/Springboard/01-DataPipelinesWithLuigi/hello_world/.logs'
+Call stack:
+  File "/anaconda3/bin/luigid", line 11, in <module>
+    sys.exit(luigid())
+  File "/anaconda3/lib/python3.7/site-packages/luigi/cmdline.py", line 38, in luigid
+    logdir=opts.logdir, unix_socket=opts.unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/process.py", line 127, in daemonize
+    cmd(api_port=api_port, address=address, unix_socket=unix_socket)
+  File "/anaconda3/lib/python3.7/site-packages/luigi/server.py", line 265, in run
+    tornado.ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 835, in start
+    self._run_callback(timeout.callback)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/anaconda3/lib/python3.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tornado/ioloop.py", line 1026, in _run
+    return self.callback()
+  File "/anaconda3/lib/python3.7/site-packages/luigi/scheduler.py", line 693, in prune
+    logger.info("Done pruning task graph")
+Message: 'Done pruning task graph'
+Arguments: ()
