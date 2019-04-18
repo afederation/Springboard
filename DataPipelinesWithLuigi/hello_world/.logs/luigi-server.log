@@ -1748,3 +1748,223 @@ FileNotFoundError: [Errno 2] No such file or directory: '/var/lib/luigi-server/s
 2019-04-17 18:00:28,993 luigi.scheduler[11601] INFO: Done pruning task graph
 2019-04-17 18:01:28,980 luigi.scheduler[11601] INFO: Starting pruning of task graph
 2019-04-17 18:01:28,985 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:02:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:02:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:03:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:03:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:04:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:04:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:05:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:05:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:06:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:06:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:07:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:07:28,982 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:08:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:08:28,981 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:09:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:09:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:10:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:10:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:11:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:11:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:12:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:12:28,983 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:13:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:13:28,983 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:14:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:14:29,003 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:15:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:15:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:16:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:16:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:17:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:17:28,982 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:18:28,988 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:18:28,991 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:19:28,984 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:19:28,985 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:20:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:20:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:21:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:21:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:22:28,979 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:22:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:23:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:23:28,984 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:24:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:24:28,982 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:25:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:25:28,984 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:26:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:26:28,981 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:27:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:27:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:28:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:28:28,983 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:29:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:29:28,982 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:30:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:30:28,984 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:31:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:31:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:32:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:32:28,981 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:33:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:33:28,981 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:34:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:34:28,982 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 18:35:28,991 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 18:35:28,992 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:03:57,447 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:03:57,449 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:04:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:04:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:05:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:05:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:06:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:06:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:07:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:07:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:08:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:08:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:09:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:09:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:10:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:10:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:11:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:11:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:12:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:12:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:13:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:13:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:14:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:14:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:15:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:15:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:16:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:16:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:17:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:17:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:18:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:18:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:19:28,975 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:19:28,977 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:20:28,976 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:20:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:21:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:21:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:22:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:22:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:23:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:23:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:24:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:24:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:25:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:25:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:26:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:26:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:27:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:27:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:28:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:28:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:29:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:29:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:30:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:30:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:31:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:31:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:32:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:32:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:33:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:33:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:34:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:34:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:35:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:35:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:36:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:36:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:37:28,993 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:37:28,994 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:38:28,979 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:38:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:39:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:39:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:40:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:40:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:41:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:41:28,985 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:42:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:42:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:43:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:43:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:44:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:44:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:45:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:45:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:46:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:46:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:47:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:47:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:48:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:48:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:49:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:49:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:50:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:50:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:51:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:51:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:52:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:52:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:53:28,994 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:53:28,994 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:54:28,979 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:54:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:55:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:55:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:56:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:56:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:57:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:57:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:58:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:58:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 20:59:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 20:59:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:00:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:00:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:01:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:01:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:02:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:02:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:03:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:03:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:04:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:04:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:05:28,980 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:05:28,981 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:06:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:06:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:07:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:07:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:08:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:08:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:09:28,987 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:09:28,988 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:10:28,982 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:10:28,984 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:11:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:11:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:12:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:12:28,980 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:13:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:13:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:14:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:14:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:15:28,977 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:15:28,978 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:16:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:16:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:17:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:17:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
+2019-04-17 21:18:28,978 luigi.scheduler[11601] INFO: Starting pruning of task graph
+2019-04-17 21:18:28,979 luigi.scheduler[11601] INFO: Done pruning task graph
