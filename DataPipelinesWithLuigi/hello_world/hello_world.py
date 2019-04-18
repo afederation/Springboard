@@ -4,13 +4,13 @@ from time import sleep
 
 class MakeDirectory(luigi.Task):
 
-	path = luigi.Parameter()
+    path = luigi.Parameter()
 
-	def output(self):
-		return luigi.LocalTarget(self.path)
+    def output(self):
+        return luigi.LocalTarget(self.path)
 
-	def run(self):
-		os.makedirs(self.path)
+    def run(self):
+        os.makedirs(self.path)
 
 class HelloTask(luigi.Task):
     path = luigi.Parameter()
@@ -32,7 +32,7 @@ class HelloTask(luigi.Task):
         return luigi.LocalTarget(self.path)
 
     def requires(self):
-    	return[MakeDirectory(path=os.path.dirname(self.path))]
+        return[MakeDirectory(path=os.path.dirname(self.path))]
 
 class WorldTask(luigi.Task):
     path = luigi.Parameter()
@@ -53,7 +53,7 @@ class WorldTask(luigi.Task):
         return luigi.LocalTarget(self.path)
 
     def requires(self):
-    	return[MakeDirectory(path=os.path.dirname(self.path))]
+        return[MakeDirectory(path=os.path.dirname(self.path))]
 
 
 class HelloWorldTask(luigi.Task):

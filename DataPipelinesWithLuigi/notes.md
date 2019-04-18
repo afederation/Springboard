@@ -17,15 +17,15 @@ Already has built in modules for a lot of common tools - mySQL, postgreSQL, hado
 some_task.py
 ```python
 class SomeTask(luigi.Task):
-	def run(self):
-		#code that actually does the work
-	def output(self):
-		return [SomeTarget()]
-		# Is this step finished?
-		# Target implements an exists() method, which returns True (finished) or Fails
-	def requires(self):
-		return [AnotherTask]
-		# Return a list of the next set of tasks
+    def run(self):
+        #code that actually does the work
+    def output(self):
+        return [SomeTarget()]
+        # Is this step finished?
+        # Target implements an exists() method, which returns True (finished) or Fails
+    def requires(self):
+        return [AnotherTask]
+        # Return a list of the next set of tasks
 ```
 
 How to run it:
@@ -127,3 +127,12 @@ class SomeTask(luigi.Task):
                 )
             )
 ```
+
+## Exercise - Create a Data Pipeline
+
+You have two types of log files in a bucker in Amazon S3:
+1. UserUpdates
+2. PageViews
+
+You want to create a table in a SQL database:
+1. user_page_views
